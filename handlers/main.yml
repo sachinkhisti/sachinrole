@@ -1,0 +1,6 @@
+---
+# handlers file for sachinrole
+ - name: Restarting Apache HTTPD Service
+   service:
+     name: httpd
+     state: restarted
